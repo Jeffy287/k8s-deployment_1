@@ -1,4 +1,5 @@
 #uvicorn main:app --reload
+### FastAPI application to render a form using Jinja2 templates
 from fastapi import FastAPI, Request, Form
 
 from fastapi.templating import Jinja2Templates
